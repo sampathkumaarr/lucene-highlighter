@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //implementation 'org.apache.lucene:lucene-core:9.0.0'
+    implementation 'org.apache.lucene:lucene-analyzers-common:8.11.1'
+    implementation 'org.apache.lucene:lucene-queryparser:9.0.0'
+    implementation 'org.apache.lucene:lucene-queries:9.0.0'
+    implementation 'org.apache.lucene:lucene-highlighter:9.0.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
