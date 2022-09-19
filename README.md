@@ -1,1 +1,1 @@
-# lucene-highlighter
+# Document Highlighting using lucene-unified-highlighter
